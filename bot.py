@@ -2,6 +2,10 @@ import logging
 from pyrogram import Client, idle
 from Config import Config
 
+import time
+print('⏳ Syncing system time...')
+time.sleep(2)
+
 plugins = dict(
         root="plugins"
          )
